@@ -5,6 +5,11 @@ public class Playlist implements PlaylistInterface {
 
     private List<Song> songs = new ArrayList<>();
 
+    @Override
+    public List<Song> getSongs() {
+
+        return songs;
+    }
 
     @Override
     public void addSong(Song song) {

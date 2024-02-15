@@ -10,5 +10,6 @@ public interface PlaylistInterface {
     public boolean addSongs(List<Song> songs);
     public List<Integer> getDates();
     public List<String> getTitoli();
+    public List<Song> getSongs();
 
 }
